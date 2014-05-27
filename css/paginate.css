@@ -1,0 +1,56 @@
+/*
+ * ***********************************************
+ * Objetivo:     Carrega os CSS de Paginação
+ *               
+ * Created on :  20/02/2014
+ * Author     :  Naelson Matheus Jr
+ * 
+ * ***********************************************
+ * Updates
+ * 
+ * Created on :  DD/MM/YYYY
+ * Author     :  
+ * Description:  
+ * 
+ */
+
+.container{
+    width: 850px;
+    margin: 50px 10px 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.page_navigation , .alt_page_navigation{
+    padding-bottom: 10px;
+}
+
+.page_navigation a, .alt_page_navigation a{
+    padding:3px 5px;
+    margin:2px;
+    color:white;
+    text-decoration:none;
+    float: left;
+    font-family: Tahoma;
+    font-size: 12px;
+    background-color:#DB5C04;
+}
+.active_page{
+    background-color:white !important;
+    color:black !important;
+}	
+
+.content, .alt_content{
+    color: black;
+    width: 100%;
+}
+
+.content li { 
+    list-style: none;	
+    display: inline;   
+
+}
+
+.content li, .alt_content li, .content > p{
+    padding: 5px
+}

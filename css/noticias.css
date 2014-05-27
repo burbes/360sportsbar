@@ -1,0 +1,38 @@
+/* 
+    ************************************************
+    * Objetivo:     Conter configurações CSS da tela
+    *               de Noticias
+    * Autor:        Naelson
+    ************************************************
+    * Updates
+
+    * Created on :  19/03/2014, 16:15
+    * Author     :  Naelson Matheus
+    * Description:    Purpose of the stylesheet follows.
+*/
+
+.boxImagem {
+    width: 165px;
+    height: 165px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+
+}
+
+/* UPLOADFY - GALERIA DE IMAGENS */
+#file_upload buttonImg{
+    height:100px;
+}
+
+.demo-box{
+    width:375px;
+}
+
+.demo-box a{
+    padding-top:10px;
+    float:right;
+}
+/* END UPLOADFY - GALERIA DE IMAGENS */

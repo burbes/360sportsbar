@@ -1,0 +1,55 @@
+/* 
+    ************************************************
+    * Objetivo:     Conter configurações CSS da tela
+    *               de Associados
+    * Autor:        Naelson
+    ************************************************
+    * Updates
+
+    * Created on :  09/04/2014
+    * Author     :  Naelson Matheus
+    * Description:  Purpose of the stylesheet follows.
+*/
+
+.boxImagem {
+    width: 500px;
+    height: 165px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+
+}
+
+.nome_empresa { display: inline-block; width: 600px; }
+
+
+/* AUTOCOMPLETE */
+
+.ui-autocomplete {
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    width: 218px;
+    border: 1px solid #B0BECA;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+.ui-autocomplete-input { width: 300px;}
+
+.ui-autocomplete .ui-menu-item a {
+    border-top: 1px solid #B0BECA;
+    display: block;
+    padding: 4px 6px;
+    color: #353D44;
+    cursor: pointer;
+}
+.ui-autocomplete .ui-menu-item:first-child a {
+    border-top: none;
+}
+.ui-autocomplete .ui-menu-item a.ui-state-hover {
+    background-color: #D5E5F4;
+    color: #161A1C;
+}
+/* FIM AUTOCOMPLETE */

@@ -1,0 +1,23 @@
+/* 
+    ************************************************
+    * Objetivo:     Conter configurações CSS da tela
+    *               de Eventos
+    * Autor:        Naelson
+    ************************************************
+    * Updates
+
+    * Created on :  08/04/2014
+    * Author     :  Naelson Matheus
+    * Description:  Purpose of the stylesheet follows.
+*/
+
+.boxImagem {
+    width: 500px;
+    height: 165px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    
+}

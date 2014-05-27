@@ -1,0 +1,27 @@
+/* 
+    ************************************************
+    * Objetivo:     Conter configurações CSS da tela
+    *               de Pessoas
+    * Autor:        Naelson
+    ************************************************
+    * Updates
+
+    * Created on :  06/03/2014, 01:28:28
+    * Author     :  Naelson Matheus
+    * Description:    Purpose of the stylesheet follows.
+*/
+
+.boxImagem {
+    width: 165px;
+    height: 165px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+
+}
+
+.nome_pessoa { display: inline-block; width: 250px; }
+
+.cargo_pessoa { display: inline-block; width: 300px; }

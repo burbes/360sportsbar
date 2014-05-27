@@ -1,0 +1,23 @@
+/* 
+    ************************************************
+    * Objetivo:     Conter configurações CSS das msg de
+    *               envio dos contato
+    * Autor:        Naelson
+    ************************************************
+    * Updates
+
+    * Created on :  15/04/2014, 01:28:28
+    * Author     :  Naelson Matheus
+    * Description:    Purpose of the stylesheet follows.
+*/
+
+.boxImagem {
+    width: 165px;
+    height: 165px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+
+}
