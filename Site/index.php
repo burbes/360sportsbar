@@ -45,8 +45,8 @@
             </div>
         </div>
 
-        <div class="main-splash-container">
-            <div class="l-container">
+        <div class="main-splash-container" >
+            
                 <div class="splash-container">
                     <div class="splash">
                         <h1 class="splash-head">Viva na Esportiva!</h1>
@@ -59,7 +59,7 @@
                         </p>-->
                     </div>
                 </div>
-            </div>
+            
         </div>
 
         <div class="content-wrapper">

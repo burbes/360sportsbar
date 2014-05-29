@@ -76,7 +76,7 @@
         <link href='http://google.com/fonts' rel='stylesheet' type='text/css'> -->
         <!-- modernizr modernizr.com -->
         <script src="assets/min/modernizr.min.js"></script>
-        <style>* { border: 1px solid red;}</style>
+
     </head>
 
     <body class="no-js">
@@ -89,38 +89,54 @@
             ======================================================== -->
             <header class="l-header" role="banner">
 
+                <!-- add naelson
+                ======================================================== -->
+                <!--                <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+                                    <a class="pure-menu-heading" href="">360° Sports Bar</a>
+                
+                                    <ul>
+                                        <li class="pure-menu-selected"><a href="#">Sobre</a></li>
+                                        <li><a href="#">Programação</a></li>
+                                        <li><a href="#">Cardápio</a></li>
+                                        <li><a href="#">Passe Livre</a></li>
+                                    </ul>
+                                </div>-->
+                <!-- fim add naelson
+                ======================================================== -->
 
-            <!-- add naelson
-            ======================================================== -->
-                <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-                    <a class="pure-menu-heading" href="">360° Sports Bar</a>
 
-                    <ul>
-                        <li class="pure-menu-selected"><a href="#">Sobre</a></li>
-                        <li><a href="#">Programação</a></li>
-                        <li><a href="#">Cardápio</a></li>
-                        <li><a href="#">Passe Livre</a></li>
-                    </ul>
-                </div>
-            <!-- fim add naelson
-            ======================================================== -->
+                <!-- Menu Topo -->
+                <div class="l-header-top" style="background-color: lightcyan;">
 
+                    <!--  -->
+                    <div class="l-col12 primary-navigation" style="background-color: lightgoldenrodyellow;">
+                        
+                        <!-- Logo -->
+                        <div class='l-col4 logo'  style="background-color: lightpink;" >
+                            Logo Aqui
+                        </div>
 
-                <div class="l-header-top">
-                    header top A
-                    <div class="l-container cf">
-                        conteiner
+                        <!-- Links dos menus -->
+                        <div class='l-col8 links-menus'  style="background-color: lightgreen;">
+                            <ul>
+                                <li class="pure-menu-selected"><a href="#">Sobre</a></li>
+                                <li><a href="#">Programação</a></li>
+                                <li><a href="#">Cardápio</a></li>
+                                <li><a href="#">Passe Livre</a></li>
+                            </ul>
+                        </div>
+
                     </div><!-- .l-container.cf -->
-                    header top B
+
                 </div><!-- .l-header-top -->
 
-                <div class="l-header-center">
-                    header center A
-                    <div class="l-container cf">
-                        conteiner
-                    </div><!-- .l-container.cf -->
-                    header center B
-                </div><!-- .l-header-center -->
+                <!--                <div class="l-header-center">
+                                    header center A
+                                    <div class="l-container cf">
+                                        conteiner
+                                    </div> .l-container.cf 
+                                    header center B
+                                </div> .l-header-center -->
 
                 <div class="l-header-bottom">
                     header bottom A
@@ -202,11 +218,11 @@
         <!-- jquery jquery.com -->
         <script src="assets/min/jquery.min.js?v=1.11.0"></script>
         <!-- suiting -->
-        <script src="assets/min/jquery.suiting.min.js"></script><!-- GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
+        <!--<script src="assets/min/jquery.suiting.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
         <!-- mobile -->
-        <script src="assets/min/jquery.mobile.min.js"></script><!-- GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
+        <!--<script src="assets/min/jquery.mobile.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
         <!-- main -->
-        <script src="assets/min/jquery.main.min.js"></script><!-- GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
+        <!--<script src="assets/min/jquery.main.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
         <!-- analytics -->
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
