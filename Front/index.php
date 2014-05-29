@@ -110,7 +110,7 @@
 
                     <!--  -->
                     <div class="l-col12 primary-navigation" style="background-color: lightgoldenrodyellow;">
-                        
+
                         <!-- Logo -->
                         <div class='l-col4 logo'  style="background-color: lightpink;" >
                             Logo Aqui
@@ -119,7 +119,7 @@
                         <!-- Links dos menus -->
                         <div class='l-col8 links-menus'  style="background-color: lightgreen;">
                             <ul>
-                                <li class="pure-menu-selected"><a href="#">Sobre</a></li>
+                                <li><a href="#">Sobre</a></li>
                                 <li><a href="#">Programação</a></li>
                                 <li><a href="#">Cardápio</a></li>
                                 <li><a href="#">Passe Livre</a></li>
