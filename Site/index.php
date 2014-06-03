@@ -67,6 +67,8 @@
                 <h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2>
 
                 <div class="pure-g">
+                    
+                    
                     <div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
 
                         <h3 class="content-subhead">
@@ -77,6 +79,8 @@
                             Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                         </p>
                     </div>
+                    
+                    
                     <div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
                         <h3 class="content-subhead">
                             <i class="fa fa-mobile"></i>

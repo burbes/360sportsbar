@@ -1,0 +1,26 @@
+Projeto 360 Sports Bar
+
+BrainStorm
+
+1) Menu Formato Guia de Tv (Painel Aeroporto)
+		|
+		|_/'> NET, SKY, ESPN
+
+. Categorizar por Esportes
+		|
+		|_/'> NewsLetter
+
+. Cadastro de Usuário 
+. Galeria de Fotos
+. Galeria de Videos
+. Area de Notícias
+. Compre o Passe Livre
+. Layout Clean
+. Programação Diaria Na Paigna Inicial em Destaque
+. "Espaço" sobre uma notícia diaria, tipo o que vai tocar no dia
+. Area Cardápio
+. Histórias do Esporte
+. Sobre o Bar
+. Fale Conosco (Form)
+. Loja Virtual (Outro projeto, futuramente..)
+. Cadastrar Redes Sociais ( Youtube, Face, Twitter, Instagram, Google+ )

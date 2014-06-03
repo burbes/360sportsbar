@@ -16,11 +16,11 @@ and open the template in the editor.
             display: inline-block;
             padding: 10px 20px;            
             font-size: 20px;
-            
+
             &:first-child{
                 list-style-type: none;                
             }
-            
+
             a{
                 display: list-item;
                 padding-left: 20px;
@@ -29,3 +29,17 @@ and open the template in the editor.
         }/* FIM LI */
     }/* FIM UL */
 }/* FIM LINKS-MENU */
+
+.logo{
+    text-align: center;    
+}
+.logo .imgLogo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 10;
+}
+
+.content-header-bottom{
+    position: absolute;
+}

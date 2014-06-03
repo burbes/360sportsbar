@@ -109,15 +109,15 @@
                 <div class="l-header-top" style="background-color: lightcyan;">
 
                     <!--  -->
-                    <div class="l-col12 primary-navigation" style="background-color: lightgoldenrodyellow;">
+                    <div class="l-col12 primary-navigation" >
 
                         <!-- Logo -->
-                        <div class='l-col4 logo'  style="background-color: lightpink;" >
-                            Logo Aqui
+                        <div class='l-col4 logo'>
+                            <img src="img/360graus_logo.jpg" id="imgLogo" class="imgLogo" />
                         </div>
 
                         <!-- Links dos menus -->
-                        <div class='l-col8 links-menus'  style="background-color: lightgreen;">
+                        <div class='l-col8 links-menus' >
                             <ul>
                                 <li><a href="#">Sobre</a></li>
                                 <li><a href="#">Programação</a></li>
@@ -138,77 +138,97 @@
                                     header center B
                                 </div> .l-header-center -->
 
-                <div class="l-header-bottom">
-                    header bottom A
-                    <div class="l-container cf">
-                        container
-                    </div><!-- .l-container.cf -->
-                    header bottom B
-                </div><!-- .l-header-bottom -->
+                <!--                <div class="l-header-bottom">
+                                    header bottom A
+                                    <div class="l-container cf">
+                                        container
+                                    </div> .l-container.cf 
+                                    header bottom B
+                                </div> .l-header-bottom -->
 
             </header><!-- .l-header -->
 
+
+            <section class="l-col12 header-bottom">
+                <div class="l-col12 content-header-bottom">
+
+                    <img src="img/360graus_headerbottom.jpg" id="imgHeadBottom" class="imgHeadBottom" />
+
+                    <div class="l-container">
+                        <div class="l-row ">
+                            <h1 class="tittle-header-bottom">Viva na Esportiva!</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
             <!-- main
             ======================================================== -->
-            <section class="l-main">
-                main A
-                <div class="l-container cf">
-                    container A
-                    <div class="l-main-content">
-                        main content A
-                        <div class="l-row">
-                            div row A
-                            <article>
-                                <header><h1>Título</h1></header>
-                                <p>Conteúdo</p>
-                                <footer><p>Rodapé</p></footer>
-                            </article>
-                            div row B
-                        </div><!-- .l-row -->
-                        main content B
-                    </div><!-- .l-main-content -->
 
-                    divisao das div´s
 
-                    <div class="l-main-sidebar">
-                        main sidebar
-                    </div><!-- .l-main-sidebar -->
-                    container B
-                </div><!-- .l-container.cf -->
-                main Bs
-            </section><!-- .l-main -->
+
+
+
+<!--            <section class="l-main">
+    main A
+    <div class="l-container cf">
+        container A
+        <div class="l-main-content">
+            main content A
+            <div class="l-row">
+                div row A
+                <article>
+                    <header><h1>Título</h1></header>
+                    <p>Conteúdo</p>
+                    <footer><p>Rodapé</p></footer>
+                </article>
+                div row B
+            </div> .l-row 
+            main content B
+        </div> .l-main-content 
+
+        divisao das div´s
+
+        <div class="l-main-sidebar">
+            main sidebar
+        </div> .l-main-sidebar 
+        container B
+    </div> .l-container.cf 
+    main Bs
+</section> .l-main -->
 
             <!-- footer
             ======================================================== -->
-            <footer class="l-footer">
-                footer A
-                <div class="l-footer-top">
-                    footer top A                    
-                    <div class="l-container cf">
-                        container
-                    </div><!-- .l-container.cf -->
-                    footer top B                    
-                </div><!-- .l-footer-top -->
-
-                divisao das div´s
-
-                <div class="l-footer-center">
-                    footer center A
-                    <div class="l-container cf">
-                        container
-                    </div><!-- .l-container.cf -->
-                    footer center B
-                </div><!-- .l-footer-center -->
-
-                <div class="l-footer-bottom">
-                    footer bottom A
-                    <div class="l-container cf">
-                        container
-                    </div><!-- .l-container.cf -->
-                    footer bottom B
-                </div><!-- .l-footer-bottom -->
-                footer B
-            </footer><!-- .l-footer -->
+            <!--            <footer class="l-footer">
+                            footer A
+                            <div class="l-footer-top">
+                                footer top A                    
+                                <div class="l-container cf">
+                                    container
+                                </div> .l-container.cf 
+                                footer top B                    
+                            </div> .l-footer-top 
+            
+                            divisao das div´s
+            
+                            <div class="l-footer-center">
+                                footer center A
+                                <div class="l-container cf">
+                                    container
+                                </div> .l-container.cf 
+                                footer center B
+                            </div> .l-footer-center 
+            
+                            <div class="l-footer-bottom">
+                                footer bottom A
+                                <div class="l-container cf">
+                                    container
+                                </div> .l-container.cf 
+                                footer bottom B
+                            </div> .l-footer-bottom 
+                            footer B
+                        </footer> .l-footer -->
 
 
         </div><!-- #site -->
