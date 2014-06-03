@@ -36,10 +36,31 @@ and open the template in the editor.
 .logo .imgLogo{
     width: 100px;
     height: 100px;
-    position: absolute;
+    position: fixed;
     z-index: 10;
 }
 
-.content-header-bottom{
-    position: absolute;
+*{
+    border:1px solid blue;
+}
+
+.l-container img{
+    //position: relative;
+    /*float: left;*/
+    background: url('../../img/360graus_headerbottom.jpg') no-repeat scroll 0% 0%;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 50%;
+    height: 50%;
+    border: 10px solid red;
+    position: fixed !important;
+    display: inline-block;
+}
+
+.tittle-header-bottom{
+    top: 20px;
+    left: 20px;
+    position: relative;
 }

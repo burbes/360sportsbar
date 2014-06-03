@@ -152,11 +152,14 @@
             <section class="l-col12 header-bottom">
                 <div class="l-col12 content-header-bottom">
 
-                    <img src="img/360graus_headerbottom.jpg" id="imgHeadBottom" class="imgHeadBottom" />
 
                     <div class="l-container">
+                            <img src="img/360graus_headerbottom.jpg" id="imgHeadBottom" class="imgHeadBottom" />
                         <div class="l-row ">
+                            <div class='l-col12 header-footer-img'>
+                                
                             <h1 class="tittle-header-bottom">Viva na Esportiva!</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
