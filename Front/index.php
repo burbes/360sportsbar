@@ -113,7 +113,7 @@
 
                         <!-- Logo -->
                         <div class='l-col4 logo'>
-                            <img src="img/360graus_logo.jpg" id="imgLogo" class="imgLogo" />
+                            <img src="assets/img/360graus_logo.png" id="imgLogo" class="imgLogo" />
                         </div>
 
                         <!-- Links dos menus -->
@@ -150,7 +150,7 @@
 
 
             <section class="l-col12 header-bottom">
-                <div class="l-col12 content-header-bottom" style="background-color: yellow">
+                <div class="l-col12 content-header-bottom">
 
                     <div class="l-container" >
                         <div class="l-row ">
