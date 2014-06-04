@@ -106,7 +106,7 @@
 
 
                 <!-- Menu Topo -->
-                <div class="l-header-top" style="background-color: lightcyan;">
+                <div class="l-header-top" style="background-color: yellow;">
 
                     <!--  -->
                     <div class="l-col12 primary-navigation" >
@@ -149,7 +149,7 @@
 
             </section>
 
-            <!-- main
+            <!-- HORÁRIO DE JOGOS
             ======================================================== -->
 
             <section class="prog-main l-row">
@@ -157,6 +157,7 @@
                     <div class="l-container">
                         <div class="l-row " >
 
+                            <!-- PROGRAMAÇÃO TRIPLA -->
                             <div class="l-col12 prog-container">
 
                                 <div class="l-col12 prog-main-dia-horario">
@@ -170,16 +171,170 @@
 
                                 <div class="l-col12 prog-main-dia">
 
-                                    <div class="l-col2 side-dia"><p>10 MAIO</p></div>
+                                    <div class="l-col2 side-dia">
+                                        <p>10 MAIO</p>
+                                    </div> <!-- side-dia -->
+
                                     <div class="l-col3 dia01-programacao01">
 
+                                        <!-- CASO FUTEBOL -->
+                                        <div class="l-col12 jogo-fut-container">
+
+                                            <div class="l-col12 brasao-times">
+                                                <img src="../brasil.png" />
+                                                <span>X</span>
+                                                <img src="../croacia.png" />                                                
+                                            </div> <!-- brasao-times -->
+
+                                            <div class="l-col12 nome-times">
+                                                <p> BRASIL x CROÁCIA</p>
+                                            </div> <!-- nome-times -->
+                                        </div>  <!-- l-col12 .jogo-fut-container -->
+                                        <!-- FIM CASO FUTEBOL -->
+
+                                    </div> <!-- dia01-programacao01 -->
+
+                                    <div class="l-col4 dia01-programacao02">
+
+
+
+                                        <!-- CASO FUTEBOL -->
+                                        <div class="l-col12 jogo-fut-container">
+
+                                            <div class="l-col12 brasao-times">
+                                                <img src="../brasil.png" />
+                                                <span>X</span>
+                                                <img src="../croacia.png" />                                                
+                                            </div> <!-- brasao-times -->
+
+                                            <div class="l-col12 nome-times">
+                                                <p> BRASIL x CROÁCIA</p>
+                                            </div> <!-- nome-times -->
+                                        </div>  <!-- l-col12 .jogo-fut-container -->
+                                        <!-- FIM CASO FUTEBOL -->                                        
+
                                     </div>
-                                    <div class="l-col4 dia01-programacao02">prog2</div>
-                                    <div class="l-col3 dia01-programacao03">prog3</div>
+
+                                    <div class="l-col3 dia01-programacao03">
+
+                                        <!-- CASO FUTEBOL -->
+                                        <div class="l-col12 jogo-fut-container">
+
+                                            <div class="l-col12 brasao-times">
+                                                <img src="../brasil.png" />
+                                                <span>X</span>
+                                                <img src="../croacia.png" />                                                
+                                            </div> <!-- brasao-times -->
+
+                                            <div class="l-col12 nome-times">
+                                                <p> BRASIL x CROÁCIA</p>
+                                            </div> <!-- nome-times -->
+                                        </div>  <!-- l-col12 .jogo-fut-container -->
+                                        <!-- FIM CASO FUTEBOL -->
+
+                                    </div>
+
+                                </div> <!-- prog-main-dia -->
+
+                            </div><!-- prog-container -->
+
+                            <!-- PROGRAMAÇÃO DUPLA -->
+                            <div class="l-col12 prog-container">
+
+                                <div class="l-col12 prog-main-dia-horario">
+
+                                    <div class="l-col2"></div>
+                                    <div class="l-col10 dia-horario">18h</div>                                    
 
                                 </div>
 
-                            </div>
+                                <div class="l-col12 prog-main-dia">
+
+                                    <div class="l-col2 side-dia">
+                                        <p>10 MAIO</p>
+                                    </div> <!-- side-dia -->                                    
+
+                                    <div class="l-col10 dia02-programacao-unica">
+
+                                        <!-- CASO FUTEBOL -->
+                                        <div class="l-col12 jogo-fut-container">
+
+                                            <div class="l-col12 brasao-times">
+                                                <img src="../brasil.png" />
+                                                <span>X</span>
+                                                <img src="../croacia.png" />                                                
+                                            </div> <!-- brasao-times -->
+
+                                            <div class="l-col12 nome-times">
+                                                <p> BRASIL x CROÁCIA</p>
+                                            </div> <!-- nome-times -->
+                                        </div>  <!-- l-col12 .jogo-fut-container -->
+                                        <!-- FIM CASO FUTEBOL -->                                        
+
+                                    </div>                                    
+
+                                </div> <!-- prog-main-dia -->
+
+                            </div><!-- prog-container -->
+                            
+                            <!-- PROGRAMAÇÃO DUPLA -->
+                            <div class="l-col12 prog-container">
+
+                                <div class="l-col12 prog-main-dia-horario">
+
+                                    <div class="l-col2"></div>
+                                    <div class="l-col7 dia-horario">18h</div>
+                                    <div class="l-col3 dia-horario">20h</div>
+
+                                </div>
+
+                                <div class="l-col12 prog-main-dia">
+
+                                    <div class="l-col2 side-dia">
+                                        <p>10 MAIO</p>
+                                    </div> <!-- side-dia -->                                    
+
+                                    <div class="l-col7 dia03-programacao-dupla01">
+
+                                        <!-- CASO FUTEBOL -->
+                                        <div class="l-col12 jogo-fut-container">
+
+                                            <div class="l-col12 brasao-times">
+                                                <img src="../brasil.png" />
+                                                <span>X</span>
+                                                <img src="../croacia.png" />                                                
+                                            </div> <!-- brasao-times -->
+
+                                            <div class="l-col12 nome-times">
+                                                <p> BRASIL x CROÁCIA</p>
+                                            </div> <!-- nome-times -->
+                                        </div>  <!-- l-col12 .jogo-fut-container -->
+                                        <!-- FIM CASO FUTEBOL -->                                        
+
+                                    </div>    
+                                    
+                                    <div class="l-col3 dia03-programacao-dupla02">
+
+                                        <!-- CASO FUTEBOL -->
+                                        <div class="l-col12 jogo-fut-container">
+
+                                            <div class="l-col12 brasao-times">
+                                                <img src="../brasil.png" />
+                                                <span>X</span>
+                                                <img src="../croacia.png" />                                                
+                                            </div> <!-- brasao-times -->
+
+                                            <div class="l-col12 nome-times">
+                                                <p> BRASIL x CROÁCIA</p>
+                                            </div> <!-- nome-times -->
+                                        </div>  <!-- l-col12 .jogo-fut-container -->
+                                        <!-- FIM CASO FUTEBOL -->                                        
+
+                                    </div>                                    
+
+                                </div> <!-- prog-main-dia -->
+
+                            </div><!-- prog-container -->
 
                         </div>
                     </div>
@@ -189,30 +344,9 @@
 
             <!-- Contato
                         ======================================================== -->
-            <style>
-                .map{
-                    position: relative;
-                }
-                .contact-form{
-                    position: absolute;
-                    top: 100px;
-                    left: 150px;
-                }
-                .form{
-                    background-color: #FFF;
-                    display: inline-block;
-                    padding: 10px;
-                }
-                .form input,.form textarea{
-                    display: block;
-                    margin-top: 30px;
-                    padding: 10px;
-                    width: 250px;
-                }
-            </style>
 
-            <section class="contact-map l-row">
-                <div class="map">
+            <section class="contact-map l-row l-col12">
+                <div class="map l-container">
                     <div id="mapa" style="height: 600px; width: 100%"></div>
                     <div class="contact-form">
                         <div class="form">
