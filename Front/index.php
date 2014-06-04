@@ -135,7 +135,7 @@
             </header><!-- .l-header -->
 
 
-            <section class="l-col12 header-bottom">
+            <section class="l-col12 header-bottom l-row">
                 <div class="l-col12 content-header-bottom">
 
                     <div class="l-container" >
@@ -152,7 +152,7 @@
             <!-- main
             ======================================================== -->
 
-            <section class="prog-main">
+            <section class="prog-main l-row">
                 <div class="l-col12">
                     <div class="l-container">
                         <div class="l-row " >
