@@ -150,15 +150,12 @@
 
 
             <section class="l-col12 header-bottom">
-                <div class="l-col12 content-header-bottom">
+                <div class="l-col12 content-header-bottom" style="background-color: yellow">
 
-
-                    <div class="l-container">
-                            <img src="img/360graus_headerbottom.jpg" id="imgHeadBottom" class="imgHeadBottom" />
+                    <div class="l-container" >
                         <div class="l-row ">
                             <div class='l-col12 header-footer-img'>
-                                
-                            <h1 class="tittle-header-bottom">Viva na Esportiva!</h1>
+                                <h1 class="tittle-header-bottom">Viva na Esportiva!</h1>
                             </div>
                         </div>
                     </div>
@@ -169,9 +166,37 @@
             <!-- main
             ======================================================== -->
 
+            <section class="prog-main">
+                <div class="l-col12">
+                    <div class="l-container">
+                        <div class="l-row " >
 
+                            <div class="l-col12 prog-container">
 
+                                <div class="l-col12 prog-main-dia-horario">
 
+                                    <div class="l-col2"></div>
+                                    <div class="l-col3 dia-horario">15h</div>
+                                    <div class="l-col4 dia-horario">18h</div>
+                                    <div class="l-col3 dia-horario">20h</div>
+
+                                </div>
+
+                                <div class="l-col12 prog-main-dia">
+
+                                    <div class="l-col2 side-dia"><p>10 MAIO</p></div>
+                                    <div class="l-col3 dia01-programacao01">prog1</div>
+                                    <div class="l-col4 dia01-programacao02">prog2</div>
+                                    <div class="l-col3 dia01-programacao03">prog3</div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 <!--            <section class="l-main">
     main A

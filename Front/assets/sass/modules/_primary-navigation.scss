@@ -44,23 +44,72 @@ and open the template in the editor.
     border:1px solid blue;
 }
 
-.l-container img{
+.prog-container{
+    background-color: $color-gray-prog;
+    text-align: center;
+    padding: 0;
+    height: 120px;
+}
+.prog-main-dia{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.dia01-programacao01{
+    background-color: $color-white;
+    height: 90px;
+}
+
+.dia01-programacao03{
+    background-color: $color-white;
+    height: 90px;
+}
+.prog-main-dia-horario{
+    padding: 0;
+    height: 30px;
+    font-size: 20px;
+}
+
+.side-dia{
+    height: 90px;
+    background-color: $color-vine-dark;
+
+    p{
+        color: white;
+        font-weight: bold;
+        position: relative;
+        font-size: 20px;
+        top: 15px;
+        font-weight: 200;
+    }
+}
+
+.dia-horario{
+    //text-align: center;
+}
+
+.content-header-bottom{
     //position: relative;
     /*float: left;*/
-    background: url('../../img/360graus_headerbottom.jpg') no-repeat scroll 0% 0%;
-    background-size: cover;
-    z-index: 1;
-    overflow: hidden;
+    background: url('../../img/360graus_headerbottom.jpg') no-repeat scroll 50% 0%;
+    //background-size: cover;
+    //z-index: 1;
+    //overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
-    width: 50%;
-    height: 50%;
-    border: 10px solid red;
-    position: fixed !important;
+    width: 960;
+    height: 400px;
+    //border: 10px solid red;
+    //position: fixed !important;
     display: inline-block;
 }
 
 .tittle-header-bottom{
-    top: 20px;
-    left: 20px;
+    border: 5px solid #FFFFFF;
+    left: 230px;
     position: relative;
+    text-align: center;
+    top: 150px;
+    width: 510px;
+    color: $color-white;
 }
