@@ -130,7 +130,7 @@
 
                 </div><!-- .l-header-top -->
 
-                
+
 
             </header><!-- .l-header -->
 
@@ -172,7 +172,7 @@
 
                                     <div class="l-col2 side-dia"><p>10 MAIO</p></div>
                                     <div class="l-col3 dia01-programacao01">
-                                        
+
                                     </div>
                                     <div class="l-col4 dia01-programacao02">prog2</div>
                                     <div class="l-col3 dia01-programacao03">prog3</div>
@@ -185,8 +185,10 @@
                     </div>
                 </div>
             </section>
-<!-- Contato
-            ======================================================== -->
+
+
+            <!-- Contato
+                        ======================================================== -->
             <style>
                 .map{
                     position: relative;
@@ -208,6 +210,7 @@
                     width: 250px;
                 }
             </style>
+
             <section class="contact-map l-row">
                 <div class="map">
                     <div id="mapa" style="height: 600px; width: 100%"></div>
@@ -224,42 +227,43 @@
                     </div><!-- contact-form  -->
                 </div><!-- l-col12 map  -->
             </section><!-- contact-map  -->
-        </div><!-- #site -->
-
-            <!-- footer
-            ======================================================== -->
-            <!--            <footer class="l-footer">
-                            footer A
-                            <div class="l-footer-top">
-                                footer top A                    
-                                <div class="l-container cf">
-                                    container
-                                </div> .l-container.cf 
-                                footer top B                    
-                            </div> .l-footer-top 
-            
-                            divisao das div´s
-            
-                            <div class="l-footer-center">
-                                footer center A
-                                <div class="l-container cf">
-                                    container
-                                </div> .l-container.cf 
-                                footer center B
-                            </div> .l-footer-center 
-            
-                            <div class="l-footer-bottom">
-                                footer bottom A
-                                <div class="l-container cf">
-                                    container
-                                </div> .l-container.cf 
-                                footer bottom B
-                            </div> .l-footer-bottom 
-                            footer B
-                        </footer> .l-footer -->
-
 
         </div><!-- #site -->
+
+        <!-- footer
+        ======================================================== -->
+        <!--            <footer class="l-footer">
+                        footer A
+                        <div class="l-footer-top">
+                            footer top A                    
+                            <div class="l-container cf">
+                                container
+                            </div> .l-container.cf 
+                            footer top B                    
+                        </div> .l-footer-top 
+        
+                        divisao das div´s
+        
+                        <div class="l-footer-center">
+                            footer center A
+                            <div class="l-container cf">
+                                container
+                            </div> .l-container.cf 
+                            footer center B
+                        </div> .l-footer-center 
+        
+                        <div class="l-footer-bottom">
+                            footer bottom A
+                            <div class="l-container cf">
+                                container
+                            </div> .l-container.cf 
+                            footer bottom B
+                        </div> .l-footer-bottom 
+                        footer B
+                    </footer> .l-footer -->
+
+
+
 
         <!-- javascript
         ======================================================== -->
