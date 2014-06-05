@@ -10,7 +10,7 @@
         ======================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="robots" content="NOINDEX, nofollow" />	
+        <meta name="robots" content="NOINDEX, nofollow" />
         <meta name="title" content="PROJETO">
         <meta name="description" content="PROJETO">
         <meta name="author" content="Mint DigitAll">
@@ -72,7 +72,7 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <!-- Adjust Style -->
         <link rel="stylesheet" href="assets/css/adjust.css">
-        <!-- Font FONTE | font-family: 'FONTE', sans-serif; 
+        <!-- Font FONTE | font-family: 'FONTE', sans-serif;
         <link href='http://google.com/fonts' rel='stylesheet' type='text/css'> -->
         <!-- modernizr modernizr.com -->
         <script src="assets/min/modernizr.min.js"></script>
@@ -85,7 +85,7 @@
         ======================================================== -->
         <div id="site">
 
-            <!-- header 
+            <!-- header
             ======================================================== -->
             <header class="l-header" role="banner">
 
@@ -93,7 +93,7 @@
                 ======================================================== -->
                 <!--                <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
                                     <a class="pure-menu-heading" href="">360° Sports Bar</a>
-                
+
                                     <ul>
                                         <li class="pure-menu-selected"><a href="#">Sobre</a></li>
                                         <li><a href="#">Programação</a></li>
@@ -106,7 +106,7 @@
 
 
                 <!-- Menu Topo -->
-                <div class="l-header-top" style="background-color: yellow;">
+                <div class="l-header-top">
 
                     <!--  -->
                     <div class="l-col12 primary-navigation" >
@@ -183,7 +183,7 @@
                                             <div class="l-col12 brasao-times">
                                                 <img src="../brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />                                                
+                                                <img src="../croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
@@ -204,14 +204,14 @@
                                             <div class="l-col12 brasao-times">
                                                 <img src="../brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />                                                
+                                                <img src="../croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
                                                 <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
-                                        <!-- FIM CASO FUTEBOL -->                                        
+                                        <!-- FIM CASO FUTEBOL -->
 
                                     </div>
 
@@ -223,7 +223,7 @@
                                             <div class="l-col12 brasao-times">
                                                 <img src="../brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />                                                
+                                                <img src="../croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
@@ -244,7 +244,7 @@
                                 <div class="l-col12 prog-main-dia-horario">
 
                                     <div class="l-col2"></div>
-                                    <div class="l-col10 dia-horario">18h</div>                                    
+                                    <div class="l-col10 dia-horario">18h</div>
 
                                 </div>
 
@@ -252,7 +252,7 @@
 
                                     <div class="l-col2 side-dia">
                                         <p>10 MAIO</p>
-                                    </div> <!-- side-dia -->                                    
+                                    </div> <!-- side-dia -->
 
                                     <div class="l-col10 dia02-programacao-unica">
 
@@ -262,21 +262,21 @@
                                             <div class="l-col12 brasao-times">
                                                 <img src="../brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />                                                
+                                                <img src="../croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
                                                 <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
-                                        <!-- FIM CASO FUTEBOL -->                                        
+                                        <!-- FIM CASO FUTEBOL -->
 
-                                    </div>                                    
+                                    </div>
 
                                 </div> <!-- prog-main-dia -->
 
                             </div><!-- prog-container -->
-                            
+
                             <!-- PROGRAMAÇÃO DUPLA -->
                             <div class="l-col12 prog-container">
 
@@ -292,7 +292,7 @@
 
                                     <div class="l-col2 side-dia">
                                         <p>10 MAIO</p>
-                                    </div> <!-- side-dia -->                                    
+                                    </div> <!-- side-dia -->
 
                                     <div class="l-col7 dia03-programacao-dupla01">
 
@@ -302,17 +302,17 @@
                                             <div class="l-col12 brasao-times">
                                                 <img src="../brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />                                                
+                                                <img src="../croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
                                                 <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
-                                        <!-- FIM CASO FUTEBOL -->                                        
+                                        <!-- FIM CASO FUTEBOL -->
 
-                                    </div>    
-                                    
+                                    </div>
+
                                     <div class="l-col3 dia03-programacao-dupla02">
 
                                         <!-- CASO FUTEBOL -->
@@ -321,16 +321,16 @@
                                             <div class="l-col12 brasao-times">
                                                 <img src="../brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />                                                
+                                                <img src="../croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
                                                 <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
-                                        <!-- FIM CASO FUTEBOL -->                                        
+                                        <!-- FIM CASO FUTEBOL -->
 
-                                    </div>                                    
+                                    </div>
 
                                 </div> <!-- prog-main-dia -->
 
@@ -341,13 +341,54 @@
                 </div>
             </section>
 
+            <!-- Historia do Esporte
+                        ======================================================== -->
+
+
+            <section class="l-col12 historia-main l-row">
+                <div class="l-container historia-body" >                    
+                    <div class="l-col12 historia-tittle" >
+                        <h1>Historia do Esporte</h1>
+                    </div> <!-- historia-title -->
+
+                    <div class="l-col12 historia-container" >
+
+                        <div class="l-col2 historia-left-side" >
+                            <a href="#" class="left-site-pointer"><</a>
+                        </div> <!-- historia-left-side -->
+
+                        <div class="l-col8 historia-content" >
+                            <div class="l-col8 historia-info" >
+                                <div class="l-col12 historia-info-tittle" >
+                                    <h2>Futebol</h2>
+                                </div>
+                                <div class="l-col12 historia-info-content" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna nisi, posuere a lacus eget, ultricies dictum sapien. Vivamus luctus sed eros ac condimentum. Proin gravida eros erat, ac rutrum sapien tincidunt at. Pellentesque mattis molestie ligula in sagittis. Aliquam tincidunt viverra tellus, fringilla dictum odio pellentesque nec. Aliquam nec imperdiet nunc. Cras ut lectus malesuada, ultricies augue in, euismod felis. Pellentesque facilisis sem non enim bibendum, nec blandit augue dapibus. Fusce tincidunt lectus mauris. Curabitur mollis, dolor in porta cursus, enim risus viverra urna, sed interdum odio turpis quis neque. Aliquam congue, sapien in cursus aliquet, massa ipsum sagittis lorem, at feugiat leo tortor id turpis. Praesent malesuada rhoncus lacus nec vulputate. Mauris a tellus erat. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="l-col2 historia-img" >
+                                <img src="assets/img/historia-esporte-futebol.png" />
+                            </div>
+                        </div> <!-- historia-content -->
+
+                        <div class="l-col2 historia-right-side" >
+                            <a href="" class="right-site-pointer">></a>
+                        </div> <!-- historia-right-side -->
+
+                    </div> <!-- historia-container -->
+                </div> <!-- historia-body -->                
+            </section><!-- l-col12 historia-main l-row -->
+
+
 
             <!-- Contato
                         ======================================================== -->
 
             <section class="contact-map l-row l-col12">
                 <div class="map l-container">
-                    <div id="mapa" style="height: 600px; width: 100%"></div>
+                    <div id="mapa"></div>
                     <div class="contact-form">
                         <div class="form">
                             <form action="#">
@@ -369,30 +410,30 @@
         <!--            <footer class="l-footer">
                         footer A
                         <div class="l-footer-top">
-                            footer top A                    
+                            footer top A
                             <div class="l-container cf">
                                 container
-                            </div> .l-container.cf 
-                            footer top B                    
-                        </div> .l-footer-top 
-        
+                            </div> .l-container.cf
+                            footer top B
+                        </div> .l-footer-top
+
                         divisao das div´s
-        
+
                         <div class="l-footer-center">
                             footer center A
                             <div class="l-container cf">
                                 container
-                            </div> .l-container.cf 
+                            </div> .l-container.cf
                             footer center B
-                        </div> .l-footer-center 
-        
+                        </div> .l-footer-center
+
                         <div class="l-footer-bottom">
                             footer bottom A
                             <div class="l-container cf">
                                 container
-                            </div> .l-container.cf 
+                            </div> .l-container.cf
                             footer bottom B
-                        </div> .l-footer-bottom 
+                        </div> .l-footer-bottom
                         footer B
                     </footer> .l-footer -->
 
