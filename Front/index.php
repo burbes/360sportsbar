@@ -11,9 +11,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="robots" content="NOINDEX, nofollow" />
-        <meta name="title" content="PROJETO">
-        <meta name="description" content="PROJETO">
-        <meta name="author" content="Mint DigitAll">
+        <meta name="title" content="360 Sports Bar">
+        <meta name="description" content="360 Sports Bar">
+        <meta name="author" content="Naelson Junior">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,12 +22,12 @@
         <!-- social description
         ======================================================== -->
         <!-- Open Graph http://ogp.me/ -->
-        <meta property="og:title" content="PROJETO">
-        <meta property="og:description" content="PROJETO">
-        <meta property="og:url" content="www.PROJETO.com">
+        <meta property="og:title" content="360 Sports Bar">
+        <meta property="og:description" content="360 Sports Bar">
+        <meta property="og:url" content="www.360SportsBar.com">
         <meta property="og:image" content="assets/img/template/.jpg">
         <meta property="og:type" content="website">
-        <meta property="og:site_name" content="PROJETO">
+        <meta property="og:site_name" content="360 Sports Bar">
         <meta property="og:locale" content="pt_BR">
         <!-- facebook https://developers.facebook.com/docs/insights/ -->
         <meta property="fb:admins" content="PROJETO" />
@@ -40,8 +40,8 @@
 
         <!-- links
         ======================================================== -->
-        <link rel="canonical" href="http://www.PROJETO.com.br/">
-        <link rel="next" href="http://www.PROJETO.com.br/page/2/">
+        <link rel="canonical" href="http://www.360SportsBar.com.br/">
+        <!--<link rel="next" href="http://www.PROJETO.com.br/page/2/">-->
 
         <!-- icon
         ======================================================== -->
@@ -149,7 +149,7 @@
 
             </section>
 
-            <!-- HORﾃヽIO DE JOGOS
+            <!-- HORﾃ?RIO DE JOGOS
             ======================================================== -->
 
             <section class="prog-main l-row">
@@ -187,7 +187,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROﾃ，IA</p>
+                                                <p> BRASIL x CROﾃ?CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -208,7 +208,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROﾃ，IA</p>
+                                                <p> BRASIL x CROﾃ?CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -227,7 +227,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROﾃ，IA</p>
+                                                <p> BRASIL x CROﾃ?CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -266,7 +266,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROﾃ，IA</p>
+                                                <p> BRASIL x CROﾃ?CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -306,7 +306,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROﾃ，IA</p>
+                                                <p> BRASIL x CROﾃ?CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -325,7 +325,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROﾃ，IA</p>
+                                                <p> BRASIL x CROﾃ?CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -341,6 +341,9 @@
                 </div>
             </section>
 
+            
+            
+            
             <!-- Historia do Esporte
                         ======================================================== -->
 
@@ -395,7 +398,7 @@
                                 <input type="text">
                                 <input type="text">
                                 <input type="text">
-                                <textarea name="" id=""></textarea>
+                                <textarea name=""></textarea>
                                 <input type="submit">
                             </form>
                         </div><!-- form  -->
@@ -438,27 +441,7 @@
                     </footer> .l-footer -->
 
 
-
-
-        <!-- javascript
-        ======================================================== -->
-        <!-- jquery jquery.com -->
-        <script src="assets/min/jquery.min.js?v=1.11.0"></script>
-        <!-- Maps API Javascript -->
-        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <!-- Arquivo de inicializaﾃｧﾃ｣o do mapa -->
-        <script src="assets/js/mapa.js"></script>
-        <!-- suiting -->
-        <!--<script src="assets/min/jquery.suiting.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
-        <!-- mobile -->
-        <!--<script src="assets/min/jquery.mobile.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
-        <!-- main -->
-        <!--<script src="assets/min/jquery.main.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
-        <!-- analytics -->
-        <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
+        <?php include './scripts.php';?>
 
     </body>
 </html>

@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/05/2014, 22:02:18
+    Author     : njunior
+*/
+
+.links-menus {
+    ul{
+
+        li{
+            list-style-type: disc;
+            display: inline-block;
+            padding: 10px 20px;            
+            font-size: 20px;
+
+            &:first-child{
+                list-style-type: none;                
+            }
+
+            a{
+                display: list-item;
+                padding-left: 20px;
+            }
+
+        }/* FIM LI */
+    }/* FIM UL */
+}/* FIM LINKS-MENU */
+
+.logo{
+    text-align: center;    
+}
+.logo .imgLogo{
+    /*    width: 150px;
+        height: 150px;*/
+    position: fixed;
+    z-index: 10;
+}
+primary-navigation{
+    position: fixed;
+    z-index: 10;
+
+}
+
+*{
+    border:1px solid blue;
+}
+
+.prog-container{
+    background-color: $color-gray-prog;
+    text-align: center;
+    padding: 0;
+    height: 120px;
+}
+.prog-main-dia{
+    margin: 0;
+    padding: 0;
+    //height: 100%;
+}
+
+.jogo-fut-container{
+    padding: 0;
+}
+
+.brasao-times{
+    padding: 0;
+    margin: 0;
+    
+    span{
+        font-weight: bold;
+        color: $color-vine-dark;
+        position: relative;
+        top: -15px;
+        
+    }
+}
+
+.nome-times{
+    padding: 0;
+    margin: 0;
+
+    p{
+        font-weight: bold;
+        color: $color-vine-dark;
+    }
+}
+.dia03-programacao-dupla01{
+    background-color: $color-white;
+    height: 90px;
+}
+.dia03-programacao-dupla02{
+    background-color: $color-orange;
+    height: 90px;
+}
+.dia02-programacao-unica{
+    background-color: $color-white;
+    height: 90px;
+}
+
+.dia01-programacao01{
+    background-color: $color-orange;
+    height: 90px;
+    padding: 0;
+}
+.dia01-programacao02{
+    background-color: $color-white;
+    height: 90px;
+}
+
+.dia01-programacao03{
+    background-color: $color-orange;
+    height: 90px;
+}
+.prog-main-dia-horario{
+    padding: 0;
+    height: 30px;
+    font-size: 20px;
+    color: $color-vine-dark;
+    font-weight: bold;
+
+}
+
+.side-dia{
+    height: 90px;
+    background-color: $color-vine-dark;
+
+    p{
+        color: white;
+        font-weight: bold;
+        position: relative;
+        font-size: 20px;
+        top: 15px;
+        font-weight: 200;
+    }
+}
+
+.dia-horario{
+    //text-align: center;
+}
+
+.content-header-bottom {
+    background: url("./../../assets/img/360graus_headerbottom.jpg") no-repeat scroll 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.tittle-header-bottom{
+    border: 5px solid #FFFFFF;
+    left: 230px;
+    position: relative;
+    text-align: center;
+    top: 150px;
+    width: 510px;
+    color: $color-white;
+}
+
+
+
+/* CONTATO */
+
+.map{
+    position: relative;
+}
+.contact-form{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.form{
+    background-color: #FFF;
+    display: inline-block;
+    padding: 10px;
+}
+.form input,.form textarea{
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+    width: 250px;
+}
+
+/* FIM CONTATO */
