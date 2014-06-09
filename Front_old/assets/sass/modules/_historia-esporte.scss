@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/06/2014, 22:02:18
+    Author     : njunior
+*/
+
+.historia-tittle h1{
+    color: $color-vine-dark;
+    font-weight: bold;
+    text-align: center;
+}
+
+.historia-info-tittle h2{
+    color: $color-vine-dark;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
+
+.historia-info-content{
+    font-size: 14px;
+    color: $color-vine-dark;
+    font-weight: 100;
+    text-align: left;    
+}
+
+.historia-left-side,.historia-right-side{
+    font-size: 100px;
+    height: 450px;
+
+    .left-site-pointer,.right-site-pointer {
+        left: 40px;
+        position: relative;
+        top: 150px;
+        color: $color-vine-dark;
+    }
+}
+
+.historia-img img{
+    max-width: 200px;
+    position: relative;
+    top: 140px;
+}
