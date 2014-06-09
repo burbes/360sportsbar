@@ -390,19 +390,21 @@
                         ======================================================== -->
 
             <section class="contact-map l-row l-col12">
-                <div class="map l-container">
-                    <div id="mapa"></div>
-                    <div class="contact-form">
-                        <div class="form">
-                            <form action="#">
-                                <input type="text">
-                                <input type="text">
-                                <input type="text">
-                                <textarea name=""></textarea>
-                                <input type="submit">
-                            </form>
-                        </div><!-- form  -->
-                    </div><!-- contact-form  -->
+                <div class="map">
+                    <div id="mapa" style="height: 700px; width: 100%"></div>
+                    <div class="l-container">
+                        <div class="contact-form">
+                            <div class="form">
+                                <form action="#">
+                                    <input type="text">
+                                    <input type="text">
+                                    <input type="text">
+                                    <textarea name=""></textarea>
+                                    <input type="submit">
+                                </form>
+                            </div><!-- form  -->
+                        </div><!-- contact-form  -->
+                    </div><!-- l-container  -->
                 </div><!-- l-col12 map  -->
             </section><!-- contact-map  -->
 
@@ -410,7 +412,7 @@
 
         <!-- footer
         ======================================================== -->
-<<<<<<< HEAD
+z
         <!-- jquery jquery.com -->
         <script src="assets/min/jquery.min.js?v=1.11.0"></script>
         <!-- waypoints -->
@@ -421,7 +423,6 @@
               offset: 30 // Apply "stuck" when element 30px from top
             });
         </script>
-        <script src="assets/js/jquery.scrolltop.js"></script>
         <!-- Maps API Javascript -->
         <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <!-- Arquivo de inicialização do mapa -->
@@ -437,40 +438,5 @@
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
         </script>
-=======
-        <!--            <footer class="l-footer">
-                        footer A
-                        <div class="l-footer-top">
-                            footer top A
-                            <div class="l-container cf">
-                                container
-                            </div> .l-container.cf
-                            footer top B
-                        </div> .l-footer-top
-
-                        divisao das div´s
-
-                        <div class="l-footer-center">
-                            footer center A
-                            <div class="l-container cf">
-                                container
-                            </div> .l-container.cf
-                            footer center B
-                        </div> .l-footer-center
-
-                        <div class="l-footer-bottom">
-                            footer bottom A
-                            <div class="l-container cf">
-                                container
-                            </div> .l-container.cf
-                            footer bottom B
-                        </div> .l-footer-bottom
-                        footer B
-                    </footer> .l-footer -->
-
-
-        <?php include './scripts.php';?>
->>>>>>> bdd3c046ce39133c3eb3326cf05dde0fcd8fb249
-
     </body>
 </html>
