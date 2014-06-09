@@ -70,10 +70,13 @@
         ======================================================== -->
         <!-- Main Style -->
         <link rel="stylesheet" href="assets/css/main.css">
+        
         <!-- Adjust Style -->
         <link rel="stylesheet" href="assets/css/adjust.css">
+        
         <!-- Font FONTE | font-family: 'FONTE', sans-serif;
         <link href='http://google.com/fonts' rel='stylesheet' type='text/css'> -->
+        
         <!-- modernizr modernizr.com -->
         <script src="assets/min/modernizr.min.js"></script>
 
@@ -119,10 +122,14 @@
                         <!-- Links dos menus -->
                         <div class='l-col8 links-menus' >
                             <ul>
-                                <li><a href="#">Sobre</a></li>
-                                <li><a href="#">ProgramaÃ§Ã£o</a></li>
-                                <li><a href="#">CardÃ¡pio</a></li>
+                                <li><a href="#">Programação</a></li>
+                                <li><a href="#">Cardápio</a></li>
+                                <li><a href="#">História do Esporte</a></li>
+                                <li><a href="#">Contato</a></li>
+                                <!--
                                 <li><a href="#">Passe Livre</a></li>
+                                <li><a href="#">Reservas</a></li>
+                                -->
                             </ul>
                         </div>
 
@@ -157,7 +164,7 @@
                     <div class="l-container">
                         <div class="l-row " >
 
-                            <!-- PROGRAMAÃ‡ÃƒO TRIPLA -->
+                            <!-- PROGRAMAÇãO TRIPLA -->
                             <div class="l-col12 prog-container">
 
                                 <div class="l-col12 prog-main-dia-horario">
@@ -187,7 +194,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÃ?CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -208,7 +215,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÃ?CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -227,7 +234,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÃ?CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -266,7 +273,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÃ?CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -306,7 +313,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÃ?CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -325,7 +332,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÃ?CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -389,9 +396,9 @@
             <!-- Contato
                         ======================================================== -->
 
-            <section class="contact-map l-row l-col12">
-                <div class="map l-container">
-                    <div id="mapa"></div>
+                    <section class="contact-map l-row l-col12">
+                <div class="map">
+                    <div id="mapa" class="mapa"></div>
                     <div class="contact-form">
                         <div class="form">
                             <form action="#">
