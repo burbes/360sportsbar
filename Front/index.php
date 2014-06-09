@@ -113,7 +113,7 @@
 
                         <!-- Logo -->
                         <div class='l-col4 logo'>
-                            <img src="assets/img/360graus_logo.png" id="imgLogo" class="imgLogo" />
+                            <img src="assets/img/360graus_logo.png" id="imgLogo" class="imgLogo" style="position: inherit !important;"/>
                         </div>
 
                         <!-- Links dos menus -->
@@ -265,6 +265,15 @@
         ======================================================== -->
         <!-- jquery jquery.com -->
         <script src="assets/min/jquery.min.js?v=1.11.0"></script>
+        <!-- waypoints -->
+        <script src="assets/min/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="assets/min/jquery.waypoints-sticky.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('.primary-navigation').waypoint('sticky', {
+              offset: 30 // Apply "stuck" when element 30px from top
+            });
+        </script>
+        <script src="assets/js/jquery.scrolltop.js"></script>
         <!-- Maps API Javascript -->
         <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <!-- Arquivo de inicialização do mapa -->
