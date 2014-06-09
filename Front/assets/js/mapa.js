@@ -4,7 +4,7 @@ var infoBox = [];
 var markers = [];
 
 function initialize() {
-    var latlng = new google.maps.LatLng(-18.8800397, -47.05878999999999);
+    var latlng = new google.maps.LatLng(-20.823032756039623, -49.41631380000001);
 
     var styles = [
         {
@@ -49,8 +49,14 @@ function initialize() {
 
     var div = document.getElementById('mapa');
     var map = new google.maps.Map(div, options);
+    var marker = new google.maps.Marker({
+        position: latlng,
+        title: "Meu ponto personalizado! :-D",
+        icon: 'img/marcador.png'
+    });
+    marker.setMap(map);
     var styledMapType = new google.maps.StyledMapType(styles, {name: 'Styled'});
     map.mapTypes.set('Styled', styledMapType);
-}
 
+}
 initialize();

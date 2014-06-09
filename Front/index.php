@@ -412,7 +412,6 @@
 
         <!-- footer
         ======================================================== -->
-z
         <!-- jquery jquery.com -->
         <script src="assets/min/jquery.min.js?v=1.11.0"></script>
         <!-- waypoints -->
