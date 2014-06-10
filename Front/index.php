@@ -121,15 +121,15 @@
 
                         <!-- Logo -->
                         <div class='l-col4 logo'>
-                            <img src="assets/img/360graus_logo.png" id="imgLogo" class="imgLogo" />
+                            <img src="assets/img/360graus_logo.png" id="imgLogo" class="imgLogo" style="position: inherit !important;"/>
                         </div>
 
                         <!-- Links dos menus -->
                         <div class='l-col8 links-menus' >
                             <ul>
-                                <li><a href="#">Programação</a></li>
-                                <li><a href="#">Cardápio</a></li>
-                                <li><a href="#">História do Esporte</a></li>
+                                <li><a href="#">Programaï¿½ï¿½o</a></li>
+                                <li><a href="#">Cardï¿½pio</a></li>
+                                <li><a href="#">Histï¿½ria do Esporte</a></li>
                                 <li><a href="#">Contato</a></li>
                                 <!--
                                 <li><a href="#">Passe Livre</a></li>
@@ -161,7 +161,7 @@
 
             </section>
 
-            <!-- HORÃ?RIO DE JOGOS
+            <!-- HORï¿½?RIO DE JOGOS
             ======================================================== -->
 
             <section class="prog-main l-row">
@@ -169,7 +169,7 @@
                     <div class="l-container">
                         <div class="l-row " >
 
-                            <!-- PROGRAMAÇãO TRIPLA -->
+                            <!-- PROGRAMAï¿½ï¿½O TRIPLA -->
                             <div class="l-col12 prog-container">
 
                                 <div class="l-col12 prog-main-dia-horario">
@@ -199,7 +199,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÁCIA</p>
+                                                <p> BRASIL x CROï¿½CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -220,7 +220,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÁCIA</p>
+                                                <p> BRASIL x CROï¿½CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -239,7 +239,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÁCIA</p>
+                                                <p> BRASIL x CROï¿½CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -278,7 +278,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÁCIA</p>
+                                                <p> BRASIL x CROï¿½CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -318,7 +318,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÁCIA</p>
+                                                <p> BRASIL x CROï¿½CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -337,7 +337,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CROÁCIA</p>
+                                                <p> BRASIL x CROï¿½CIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -360,7 +360,7 @@
             <!-- SnapWidget -->
             <!-- SnapWidget -->
             http://instafeedjs.com/
-<iframe src="http://snapwidget.com/in/?u=YnVyYmVzfGlufDEyNXwzfDN8YmQwMDA3fG5vfDV8bm9uZXxvblN0YXJ0fHllcw==&v=9614" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:390px; height:390px"></iframe>
+            <iframe src="http://snapwidget.com/in/?u=YnVyYmVzfGlufDEyNXwzfDN8YmQwMDA3fG5vfDV8bm9uZXxvblN0YXJ0fHllcw==&v=9614" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:390px; height:390px"></iframe>
 
             <!-- CARDAPIO
                         ======================================================== -->
@@ -492,11 +492,30 @@
                     <div class="l-col12 historia-tittle" >
                         <h1>Historia do Esporte</h1>
                     </div> <!-- historia-title -->
-
-                    <div class="l-col12 historia-container" >
+                    <style>
+                        .historia-content{
+                            margin-left: 180px;
+                        }
+                        .left-site-pointer, .right-site-pointer{
+                            position: absolute !important;
+                        }
+                        .left-site-pointer{
+                            left:0 !important;
+                        }
+                        .right-site-pointer{
+                            left: inherit !important;
+                            right: 0px !important;
+                        }
+                    </style>
+                    <div class="l-col12 historia-container cycle-slideshow" 
+                         data-cycle-fx="scrollHorz" 
+                         data-cycle-timeout="0"
+                         data-cycle-prev="#prev"
+                         data-cycle-next="#next"
+                         data-cycle-slides="> .historia-content">
 
                         <div class="l-col2 historia-left-side" >
-                            <a href="#" class="left-site-pointer"><</a>
+                            <span href="#" id="prev" class="left-site-pointer"><</span>
                         </div> <!-- historia-left-side -->
 
                         <div class="l-col8 historia-content" >
@@ -515,8 +534,24 @@
                             </div>
                         </div> <!-- historia-content -->
 
+                        <div class="l-col8 historia-content" >
+                            <div class="l-col8 historia-info" >
+                                <div class="l-col12 historia-info-tittle" >
+                                    <h2>Cachorro</h2>
+                                </div>
+                                <div class="l-col12 historia-info-content" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna nisi, posuere a lacus eget, ultricies dictum sapien. Vivamus luctus sed eros ac condimentum. Proin gravida eros erat, ac rutrum sapien tincidunt at. Pellentesque mattis molestie ligula in sagittis. Aliquam tincidunt viverra tellus, fringilla dictum odio pellentesque nec. Aliquam nec imperdiet nunc. Cras ut lectus malesuada, ultricies augue in, euismod felis. Pellentesque facilisis sem non enim bibendum, nec blandit augue dapibus. Fusce tincidunt lectus mauris. Curabitur mollis, dolor in porta cursus, enim risus viverra urna, sed interdum odio turpis quis neque. Aliquam congue, sapien in cursus aliquet, massa ipsum sagittis lorem, at feugiat leo tortor id turpis. Praesent malesuada rhoncus lacus nec vulputate. Mauris a tellus erat. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="l-col2 historia-img" >
+                                <img src="assets/img/historia-esporte-futebol.png" />
+                            </div>
+                        </div> <!-- historia-content -->
+
                         <div class="l-col2 historia-right-side" >
-                            <a href="" class="right-site-pointer">></a>
+                            <span id="next" class="right-site-pointer">></span>
                         </div> <!-- historia-right-side -->
 
                     </div> <!-- historia-container -->
@@ -530,6 +565,7 @@
 
             <section class="contact-map l-row l-col12">
                 <div class="map">
+
                     <div id="mapa" class="mapa"></div>
                     <div class="contact-form">
                         <div class="form">
@@ -542,45 +578,48 @@
                             </form>
                         </div><!-- form  -->
                     </div><!-- contact-form  -->
+
                 </div><!-- l-col12 map  -->
             </section><!-- contact-map  -->
 
         </div><!-- #site -->
 
-        <!-- footer
-        ======================================================== -->
-        <!--            <footer class="l-footer">
-                        footer A
-                        <div class="l-footer-top">
-                            footer top A
-                            <div class="l-container cf">
-                                container
-                            </div> .l-container.cf
-                            footer top B
-                        </div> .l-footer-top
+        <!-- jquery jquery.com -->
+        <script src="assets/min/jquery.min.js?v=1.11.0"></script>
+        <!-- Cycle 2  -->
+        <script src="./js/jquery.cycle2.min.js"></script>
+        <!-- waypoints -->
+        <script src="assets/min/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="assets/min/jquery.waypoints-sticky.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('.primary-navigation').waypoint('sticky', {
+                offset: 30 // Apply "stuck" when element 30px from top
+            });
+        </script>
+        <!-- Maps API Javascript -->
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <!-- Arquivo de inicializaÃ§Ã£o do mapa -->
+        <script src="assets/js/mapa.js"></script>
+        <!-- suiting -->
+        <!--<script src="assets/min/jquery.suiting.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
+        <!-- mobile -->
+        <!--<script src="assets/min/jquery.mobile.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
+        <!-- main -->
+        <!--<script src="assets/min/jquery.main.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
+        <!-- analytics -->
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
 
-                        divisao das divÂ´s
+        <!-- JQUERY TABS -->
+        <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script>
+            $(function() {
+                $("#tabs").tabs();
+            });
+        </script>
 
-                        <div class="l-footer-center">
-                            footer center A
-                            <div class="l-container cf">
-                                container
-                            </div> .l-container.cf
-                            footer center B
-                        </div> .l-footer-center
-
-                        <div class="l-footer-bottom">
-                            footer bottom A
-                            <div class="l-container cf">
-                                container
-                            </div> .l-container.cf
-                            footer bottom B
-                        </div> .l-footer-bottom
-                        footer B
-                    </footer> .l-footer -->
-
-
-        <?php include './scripts.php'; ?>
 
     </body>
 </html>

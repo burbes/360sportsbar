@@ -4,6 +4,7 @@ var infoBox = [];
 var markers = [];
 
 function initialize() {
+
     var latlng = new google.maps.LatLng(-20.823263, -49.397858);
 
     var styles = [
@@ -50,6 +51,7 @@ function initialize() {
     var div = document.getElementById('mapa');
     var map = new google.maps.Map(div, options);
 
+
     /* MARCADOR */
     var marker = new google.maps.Marker({
         position: latlng,
@@ -61,7 +63,8 @@ function initialize() {
 
     var styledMapType = new google.maps.StyledMapType(styles, {name: 'Styled'});
     map.mapTypes.set('Styled', styledMapType);
+
 }
 
-
 initialize();
+
