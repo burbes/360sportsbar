@@ -364,7 +364,8 @@
                             left:0 !important;
                         }
                         .right-site-pointer{
-                            left: 960px !important
+                            left: inherit !important;
+                            right: 0px !important;
                         }
                     </style>
                     <div class="l-col12 historia-container cycle-slideshow" 
