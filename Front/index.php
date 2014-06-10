@@ -353,11 +353,29 @@
                     <div class="l-col12 historia-tittle" >
                         <h1>Historia do Esporte</h1>
                     </div> <!-- historia-title -->
-
-                    <div class="l-col12 historia-container" >
+                    <style>
+                        .historia-content{
+                            margin-left: 180px;
+                        }
+                        .left-site-pointer, .right-site-pointer{
+                            position: absolute !important;
+                        }
+                        .left-site-pointer{
+                            left:0 !important;
+                        }
+                        .right-site-pointer{
+                            left: 960px !important
+                        }
+                    </style>
+                    <div class="l-col12 historia-container cycle-slideshow" 
+                    data-cycle-fx="scrollHorz" 
+                    data-cycle-timeout="0"
+                    data-cycle-prev="#prev"
+                    data-cycle-next="#next"
+                    data-cycle-slides="> .historia-content">
 
                         <div class="l-col2 historia-left-side" >
-                            <a href="#" class="left-site-pointer"><</a>
+                            <span href="#" id="prev" class="left-site-pointer"><</span>
                         </div> <!-- historia-left-side -->
 
                         <div class="l-col8 historia-content" >
@@ -376,8 +394,24 @@
                             </div>
                         </div> <!-- historia-content -->
 
+                        <div class="l-col8 historia-content" >
+                            <div class="l-col8 historia-info" >
+                                <div class="l-col12 historia-info-tittle" >
+                                    <h2>Cachorro</h2>
+                                </div>
+                                <div class="l-col12 historia-info-content" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna nisi, posuere a lacus eget, ultricies dictum sapien. Vivamus luctus sed eros ac condimentum. Proin gravida eros erat, ac rutrum sapien tincidunt at. Pellentesque mattis molestie ligula in sagittis. Aliquam tincidunt viverra tellus, fringilla dictum odio pellentesque nec. Aliquam nec imperdiet nunc. Cras ut lectus malesuada, ultricies augue in, euismod felis. Pellentesque facilisis sem non enim bibendum, nec blandit augue dapibus. Fusce tincidunt lectus mauris. Curabitur mollis, dolor in porta cursus, enim risus viverra urna, sed interdum odio turpis quis neque. Aliquam congue, sapien in cursus aliquet, massa ipsum sagittis lorem, at feugiat leo tortor id turpis. Praesent malesuada rhoncus lacus nec vulputate. Mauris a tellus erat. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="l-col2 historia-img" >
+                                <img src="assets/img/historia-esporte-futebol.png" />
+                            </div>
+                        </div> <!-- historia-content -->
+
                         <div class="l-col2 historia-right-side" >
-                            <a href="" class="right-site-pointer">></a>
+                            <span id="next" class="right-site-pointer">></span>
                         </div> <!-- historia-right-side -->
 
                     </div> <!-- historia-container -->
@@ -414,6 +448,8 @@
         ======================================================== -->
         <!-- jquery jquery.com -->
         <script src="assets/min/jquery.min.js?v=1.11.0"></script>
+        <!-- Cycle 2  -->
+        <script src="./js/jquery.cycle2.min.js"></script>
         <!-- waypoints -->
         <script src="assets/min/jquery.waypoints.min.js" type="text/javascript"></script>
         <script src="assets/min/jquery.waypoints-sticky.min.js" type="text/javascript"></script>
