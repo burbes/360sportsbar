@@ -4,7 +4,7 @@ var infoBox = [];
 var markers = [];
 
 function initialize() {
-    var latlng = new google.maps.LatLng(-18.8800397, -47.05878999999999);
+    var latlng = new google.maps.LatLng(-20.823263, -49.397858);
 
     var styles = [
         {
@@ -41,7 +41,7 @@ function initialize() {
         mapTypeControlOptions: {
             mapTypeIds: ['Styled']
         },
-        center: new google.maps.LatLng( -20.823263, -49.397858),
+        center: latlng ,
         zoom: 17,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         mapTypeId: 'Styled'
@@ -49,8 +49,19 @@ function initialize() {
 
     var div = document.getElementById('mapa');
     var map = new google.maps.Map(div, options);
+
+    /* MARCADOR */
+    var marker = new google.maps.Marker({
+        position: latlng,
+        title: "360 Sports Bar",
+        icon: 'img/marcador.png'
+    });
+    marker.setMap(map);
+    /* FIM */
+
     var styledMapType = new google.maps.StyledMapType(styles, {name: 'Styled'});
     map.mapTypes.set('Styled', styledMapType);
 }
+
 
 initialize();

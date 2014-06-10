@@ -24,3 +24,11 @@
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 
+
+<!-- JQUERY TABS -->
+<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script>
+    $(function() {
+        $("#tabs").tabs();
+    });
+</script>
