@@ -606,14 +606,12 @@
             $(document).ready(function(){
                 var positionAtual=$(window).scrollTop();
                     if( positionAtual == 0 ) {
-                        alert('foi');
                         setTimeout(function(){
                             $('html, body').animate({
                             scrollTop: $(".l-header-top").offset().top
                             }, 2000);
                         },3000);
                     }else{
-                        alert('nao foi');
                     }
                 $('.sticky-navigation').waypoint('sticky');
             });
