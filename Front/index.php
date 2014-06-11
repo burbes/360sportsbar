@@ -97,6 +97,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center top;
+            background-attachment: fixed;
         }
         .tittle-header-bottom {
             top: 270px !important;
