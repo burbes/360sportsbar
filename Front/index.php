@@ -112,7 +112,7 @@
             top: 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
             background-color: #FFF;
-            z-index: 2;
+            z-index: 1000;
         }
         </style>
         <!-- site
