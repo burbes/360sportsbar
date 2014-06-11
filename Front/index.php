@@ -106,6 +106,14 @@
             display: inline-block;
             width: 100%;
         }
+        .sticky-navigation.stuck
+        {
+            position: fixed;
+            top: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+            background-color: #FFF;
+            z-index: 2;
+        }
         </style>
         <!-- site
         ======================================================== -->
@@ -135,7 +143,7 @@
                 <div class="l-header-top">
 
                     <!--  -->
-                    <div class="l-col12 primary-navigation" >
+                    <div class="l-col12 primary-navigation sticky-navigation" >
 
                         <!-- Logo -->
                         <div class='l-col4 logo'>
@@ -601,6 +609,7 @@
                     scrollTop: $(".l-header-top").offset().top
                 }, 2000);
             },3000);
+            $('.sticky-navigation').waypoint('sticky');
             });
         </script>
         <!-- Maps API Javascript -->
