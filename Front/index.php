@@ -88,29 +88,46 @@
     </head>
 
     <body class="no-js">
-
+        <style>
+        .header-bottom{padding: 0;}
+        .content-header-bottom{
+            position: relative;
+            height: 740px !important;
+            z-index: 1;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center top;
+        }
+        .tittle-header-bottom {
+            top: 270px !important;
+        }
+        .l-header-top{
+            display: inline-block;
+            width: 100%;
+        }
+        </style>
         <!-- site
         ======================================================== -->
         <div id="site">
 
+
+            <section class="l-col12 header-bottom l-row">
+                <div class="l-col12 content-header-bottom">
+
+                    <div class="l-container" >
+                        <div class="l-row ">
+                            <div class='l-col12 header-footer-img'>
+                                <h1 class="tittle-header-bottom">Viva na Esportiva!</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
             <!-- header
             ======================================================== -->
             <header class="l-header" role="banner">
-
-                <!-- add naelson
-                ======================================================== -->
-                <!--                <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-                                    <a class="pure-menu-heading" href="">360° Sports Bar</a>
-
-                                    <ul>
-                                        <li class="pure-menu-selected"><a href="#">Sobre</a></li>
-                                        <li><a href="#">Programação</a></li>
-                                        <li><a href="#">Cardápio</a></li>
-                                        <li><a href="#">Passe Livre</a></li>
-                                    </ul>
-                                </div>-->
-                <!-- fim add naelson
-                ======================================================== -->
 
 
                 <!-- Menu Topo -->
@@ -145,21 +162,6 @@
 
 
             </header><!-- .l-header -->
-
-
-            <section class="l-col12 header-bottom l-row">
-                <div class="l-col12 content-header-bottom">
-
-                    <div class="l-container" >
-                        <div class="l-row ">
-                            <div class='l-col12 header-footer-img'>
-                                <h1 class="tittle-header-bottom">Viva na Esportiva!</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
 
             <!-- HOR�?RIO DE JOGOS
             ======================================================== -->
@@ -592,8 +594,12 @@
         <script src="assets/min/jquery.waypoints.min.js" type="text/javascript"></script>
         <script src="assets/min/jquery.waypoints-sticky.min.js" type="text/javascript"></script>
         <script type="text/javascript">
-            $('.primary-navigation').waypoint('sticky', {
-                offset: 30 // Apply "stuck" when element 30px from top
+            $(document).ready(function(){
+            setTimeout(function(){
+                $('html, body').animate({
+                    scrollTop: $(".l-header-top").offset().top
+                }, 2000);
+            },3000);
             });
         </script>
         <!-- Maps API Javascript -->
