@@ -604,12 +604,18 @@
         <script src="assets/min/jquery.waypoints-sticky.min.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-            setTimeout(function(){
-                $('html, body').animate({
-                    scrollTop: $(".l-header-top").offset().top
-                }, 2000);
-            },3000);
-            $('.sticky-navigation').waypoint('sticky');
+                var positionAtual=$(window).scrollTop();
+                    if( positionAtual == 0 ) {
+                        alert('foi');
+                        setTimeout(function(){
+                            $('html, body').animate({
+                            scrollTop: $(".l-header-top").offset().top
+                            }, 2000);
+                        },3000);
+                    }else{
+                        alert('nao foi');
+                    }
+                $('.sticky-navigation').waypoint('sticky');
             });
         </script>
         <!-- Maps API Javascript -->
