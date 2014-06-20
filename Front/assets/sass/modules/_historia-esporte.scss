@@ -45,3 +45,18 @@ and open the template in the editor.
     position: relative;
     top: 140px;
 }
+
+/* O codigo abaixo estava no intex.php */
+.historia-content{
+    margin-left: 180px;
+}
+.left-site-pointer, .right-site-pointer{
+    position: absolute !important;
+}
+.left-site-pointer{
+    left:0 !important;
+}
+.right-site-pointer{
+    left: inherit !important;
+    right: 0px !important;
+}

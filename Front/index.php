@@ -89,31 +89,32 @@
 
     <body class="no-js">
         <style>
-        .header-bottom{padding: 0;}
-        .content-header-bottom{
-            position: relative;
-            height: 740px !important;
-            z-index: 1;
-            background-repeat: no-repeat;
-            background-size: 100% auto;
-            background-position: center top;
-            background-attachment: fixed;
-        }
-        .tittle-header-bottom {
-            top: 270px !important;
-        }
-        .l-header-top{
-            display: inline-block;
-            width: 100%;
-        }
-        .sticky-navigation.stuck
-        {
-            position: fixed;
-            top: 0;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-            background-color: #FFF;
-            z-index: 1000;
-        }
+            /*            HEADER
+                        .header-bottom{padding: 0;}
+                        .content-header-bottom{
+                            position: relative;
+                            height: 740px !important;
+                            z-index: 1;
+                            background-repeat: no-repeat;
+                            background-size: 100% auto;
+                            background-position: center top;
+                            background-attachment: fixed;
+                        }
+                        .tittle-header-bottom {
+                            top: 270px !important;
+                        }
+                        .l-header-top{
+                            display: inline-block;
+                            width: 100%;
+                        }
+                        .sticky-navigation.stuck
+                        {
+                            position: fixed;
+                            top: 0;
+                            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+                            background-color: #FFF;
+                            z-index: 1000;
+                        }*/
         </style>
         <!-- site
         ======================================================== -->
@@ -153,9 +154,9 @@
                         <!-- Links dos menus -->
                         <div class='l-col8 links-menus' >
                             <ul>
-                                <li><a href="#">Programa��o</a></li>
-                                <li><a href="#">Card�pio</a></li>
-                                <li><a href="#">Hist�ria do Esporte</a></li>
+                                <li><a href="#">Programação</a></li>
+                                <li><a href="#">Cardápio</a></li>
+                                <li><a href="#">História do Esporte</a></li>
                                 <li><a href="#">Contato</a></li>
                                 <!--
                                 <li><a href="#">Passe Livre</a></li>
@@ -210,7 +211,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CRO�CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -289,7 +290,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CRO�CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -329,7 +330,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CRO�CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -348,7 +349,7 @@
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CRO�CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -368,8 +369,17 @@
 
             <!-- INSTAGRAM
                         ======================================================== -->
-            <!-- SnapWidget -->
-            <!-- SnapWidget -->
+<!--            <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+            <script type="text/javascript">
+                var feed = new Instafeed({
+                    get: 'tagged',
+                    tagName: 'awesome',
+                    clientId: 'YOUR_CLIENT_ID'
+                });
+                feed.run();
+            </script>
+            <div id="instafeed"></div>-->
+            
             http://instafeedjs.com/
             <iframe src="http://snapwidget.com/in/?u=YnVyYmVzfGlufDEyNXwzfDN8YmQwMDA3fG5vfDV8bm9uZXxvblN0YXJ0fHllcw==&v=9614" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:390px; height:390px"></iframe>
 
@@ -504,19 +514,19 @@
                         <h1>Historia do Esporte</h1>
                     </div> <!-- historia-title -->
                     <style>
-                        .historia-content{
-                            margin-left: 180px;
-                        }
-                        .left-site-pointer, .right-site-pointer{
-                            position: absolute !important;
-                        }
-                        .left-site-pointer{
-                            left:0 !important;
-                        }
-                        .right-site-pointer{
-                            left: inherit !important;
-                            right: 0px !important;
-                        }
+                        /*                        .historia-content{
+                                                    margin-left: 180px;
+                                                }
+                                                .left-site-pointer, .right-site-pointer{
+                                                    position: absolute !important;
+                                                }
+                                                .left-site-pointer{
+                                                    left:0 !important;
+                                                }
+                                                .right-site-pointer{
+                                                    left: inherit !important;
+                                                    right: 0px !important;
+                                                }*/
                     </style>
                     <div class="l-col12 historia-container cycle-slideshow" 
                          data-cycle-fx="scrollHorz" 
@@ -603,18 +613,18 @@
         <script src="assets/min/jquery.waypoints.min.js" type="text/javascript"></script>
         <script src="assets/min/jquery.waypoints-sticky.min.js" type="text/javascript"></script>
         <script type="text/javascript">
-            $(document).ready(function(){
-                var positionAtual=$(window).scrollTop();
-                    if( positionAtual == 0 ) {
-                        setTimeout(function(){
+                $(document).ready(function() {
+                    var positionAtual = $(window).scrollTop();
+                    if (positionAtual == 0) {
+                        setTimeout(function() {
                             $('html, body').animate({
-                            scrollTop: $(".l-header-top").offset().top
+                                scrollTop: $(".l-header-top").offset().top
                             }, 2000);
-                        },3000);
-                    }else{
+                        }, 3000);
+                    } else {
                     }
-                $('.sticky-navigation').waypoint('sticky');
-            });
+                    $('.sticky-navigation').waypoint('sticky');
+                });
         </script>
         <!-- Maps API Javascript -->
         <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -628,16 +638,16 @@
         <!--<script src="assets/min/jquery.main.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
         <!-- analytics -->
         <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
         </script>
 
         <!-- JQUERY TABS -->
         <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
         <script>
-            $(function() {
-                $("#tabs").tabs();
-            });
+                $(function() {
+                    $("#tabs").tabs();
+                });
         </script>
 
 

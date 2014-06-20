@@ -33,7 +33,7 @@ $column_width: percentage(1/$num_columns);
 // header --------------------------------
 
 .l-header {}
-.l-header-top {}
+.l-header-top { height: 60px; }
 .l-header-center {}
 .l-header-bottom {}
 
