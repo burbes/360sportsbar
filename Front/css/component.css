@@ -39,8 +39,8 @@
 }
 
 .tabs nav li.ui-state-active {
-	border: 1px solid #47a3da;
-	box-shadow: inset 0 2px #47a3da;
+	border: 1px solid #BD0007;
+	box-shadow: inset 0 2px #BD0007;
 	border-bottom: none;
 	z-index: 100;
 }
@@ -53,7 +53,7 @@
 	right: 100%;
 	bottom: 0;
 	width: 1000px;
-	background: #47a3da;
+	background: #BD0007;
 }
 
 .tabs nav li.ui-state-active:after {
@@ -76,7 +76,7 @@
 }
 
 .tabs nav li.ui-state-active a {
-	color: #47a3da;
+	color: #BD0007;
 }
 
 /* Icons */
@@ -136,7 +136,7 @@
 .no-js .content section {
 	display: block;
 	padding-bottom: 2em;
-	border-bottom: 1px solid #47a3da;
+	border-bottom: 1px solid #BD0007;
 }
 
 .content section.content-current {

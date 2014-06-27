@@ -30,13 +30,14 @@ and open the template in the editor.
 
 .historia-left-side,.historia-right-side{
     font-size: 100px;
-    height: 450px;
+    /*height: 450px;*/
 
     .left-site-pointer,.right-site-pointer {
         left: 40px;
         position: relative;
         top: 150px;
         color: $color-vine-dark;
+        cursor: pointer;
     }
 }
 

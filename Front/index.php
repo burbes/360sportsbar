@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
     <head>
-
         <meta charset="utf-8">
 
-        <title>PROJETO</title>
+        <title>.: 360SPORTSBAR :.</title>
 
         <!-- description http://conversion.com.br rel="nofollow" on links
         ======================================================== -->
@@ -30,13 +29,13 @@
         <meta property="og:site_name" content="360 Sports Bar">
         <meta property="og:locale" content="pt_BR">
         <!-- facebook https://developers.facebook.com/docs/insights/ -->
-        <meta property="fb:admins" content="PROJETO" />
-        <meta property="fb:app_id" content="PROJETO"/>
+        <meta property="fb:admins" content="360SPORTSBAR" />
+        <meta property="fb:app_id" content="360SPORTSBAR"/>
         <!-- twitter https://dev.twitter.com/docs/cards -->
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@PROJETO">
-        <meta name="twitter:domain" content="PROJETO">
-        <meta name="twitter:creator" content="@PROJETO">
+        <meta name="twitter:site" content="@360SPORTSBAR">
+        <meta name="twitter:domain" content="360SPORTSBAR.COM.BR">
+        <meta name="twitter:creator" content="@360SPORTSBAR">
 
         <!-- links
         ======================================================== -->
@@ -85,37 +84,12 @@
         <!-- modernizr modernizr.com -->
         <script src="assets/min/modernizr.min.js"></script>
 
+        <!--INSTAGRAM-->
+        <script type="text/javascript" src="assets/js/instafeed.min.js"></script>
+        <!--<script type="text/javascript" src="assets/js/jquery.jscroll.min.js"></script>-->
     </head>
 
     <body class="no-js">
-        <style>
-            /*            HEADER
-                        .header-bottom{padding: 0;}
-                        .content-header-bottom{
-                            position: relative;
-                            height: 740px !important;
-                            z-index: 1;
-                            background-repeat: no-repeat;
-                            background-size: 100% auto;
-                            background-position: center top;
-                            background-attachment: fixed;
-                        }
-                        .tittle-header-bottom {
-                            top: 270px !important;
-                        }
-                        .l-header-top{
-                            display: inline-block;
-                            width: 100%;
-                        }
-                        .sticky-navigation.stuck
-                        {
-                            position: fixed;
-                            top: 0;
-                            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-                            background-color: #FFF;
-                            z-index: 1000;
-                        }*/
-        </style>
         <!-- site
         ======================================================== -->
         <div id="site">
@@ -138,8 +112,6 @@
             <!-- header
             ======================================================== -->
             <header class="l-header" role="banner">
-
-
                 <!-- Menu Topo -->
                 <div class="l-header-top">
 
@@ -155,25 +127,22 @@
                         <div class='l-col8 links-menus' >
                             <ul>
                                 <li><a href="#">Programação</a></li>
+                                <li><a href="#">Instagram</a></li>
                                 <li><a href="#">Cardápio</a></li>
                                 <li><a href="#">História do Esporte</a></li>
                                 <li><a href="#">Contato</a></li>
                                 <!--
+                                <li><a href="#">FaceBook</a></li>
                                 <li><a href="#">Passe Livre</a></li>
                                 <li><a href="#">Reservas</a></li>
                                 -->
                             </ul>
                         </div>
-
                     </div><!-- .l-container.cf -->
-
                 </div><!-- .l-header-top -->
-
-
-
             </header><!-- .l-header -->
 
-            <!-- HOR�?RIO DE JOGOS
+            <!-- HORARIO DE JOGOS
             ======================================================== -->
 
             <section class="prog-main l-row">
@@ -205,9 +174,9 @@
                                         <div class="l-col12 jogo-fut-container">
 
                                             <div class="l-col12 brasao-times">
-                                                <img src="../brasil.png" />
+                                                <img src="img/brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />
+                                                <img src="img/croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
@@ -226,13 +195,13 @@
                                         <div class="l-col12 jogo-fut-container">
 
                                             <div class="l-col12 brasao-times">
-                                                <img src="../brasil.png" />
+                                                <img src="img/brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />
+                                                <img src="img/croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CRO�CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -245,13 +214,13 @@
                                         <div class="l-col12 jogo-fut-container">
 
                                             <div class="l-col12 brasao-times">
-                                                <img src="../brasil.png" />
+                                                <img src="img/brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />
+                                                <img src="img/croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
-                                                <p> BRASIL x CRO�CIA</p>
+                                                <p> BRASIL x CROÁCIA</p>
                                             </div> <!-- nome-times -->
                                         </div>  <!-- l-col12 .jogo-fut-container -->
                                         <!-- FIM CASO FUTEBOL -->
@@ -284,9 +253,9 @@
                                         <div class="l-col12 jogo-fut-container">
 
                                             <div class="l-col12 brasao-times">
-                                                <img src="../brasil.png" />
+                                                <img src="img/brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />
+                                                <img src="img/croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
@@ -324,9 +293,9 @@
                                         <div class="l-col12 jogo-fut-container">
 
                                             <div class="l-col12 brasao-times">
-                                                <img src="../brasil.png" />
+                                                <img src="img/brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />
+                                                <img src="img/croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
@@ -343,9 +312,9 @@
                                         <div class="l-col12 jogo-fut-container">
 
                                             <div class="l-col12 brasao-times">
-                                                <img src="../brasil.png" />
+                                                <img src="img/brasil.png" />
                                                 <span>X</span>
-                                                <img src="../croacia.png" />
+                                                <img src="img/croacia.png" />
                                             </div> <!-- brasao-times -->
 
                                             <div class="l-col12 nome-times">
@@ -369,19 +338,69 @@
 
             <!-- INSTAGRAM
                         ======================================================== -->
-<!--            <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+
             <script type="text/javascript">
+
                 var feed = new Instafeed({
-                    get: 'tagged',
-                    tagName: 'awesome',
-                    clientId: 'YOUR_CLIENT_ID'
+                    get: 'location',
+                    tagName: '360SPORTSBAR',
+                    distance: 100,
+                    clientId: '5c2824eae621413cb4afb5ff4e650913',
+                    locationId: 303192746,
+                    sortBy: 'most-recent',
+                    limit: 35,
+                    accessToken: '1322529869.5c2824e.ac0d6b9734274630909749e6843cdf5c',
+                    template: '\
+                                <li>\n\
+                                        <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>\n\
+                                        <div class="timeline-panel">\n\
+                                            \n\
+                                            <div class="timeline-heading">\n\
+                                                <h4 class="timeline-title">{{caption}}</h4>\n\
+                                            </div>\n\
+                                            \n\
+                                            <div class="timeline-body">\n\
+                                                <p><a href="{{link}}"><img src="{{image}}" /></a></p>\n\
+                                            </div>\n\
+                                        </div>\n\
+                                </li>\n',
+                    success: function() {
+
+                    }
                 });
+
+
+                // bind the load more button
+                //    loadButton.addEventListener('click', function() {
+                //        feed.next();
+                //    });
+
+
                 feed.run();
+
+                //timeline source http://bootsnipp.com/snippets/featured/timeline-responsive
+                //proximidades https://api.instagram.com/v1/locations/search?lat=-20.823323&lng=-49.3975257&access_token=1322529869.5c2824e.ac0d6b9734274630909749e6843cdf5c
+                //gerenciar clientes http://instagram.com/developer/clients/manage/?edited=360sportsbar
+                //get access token: http://jelled.com/instagram/access-token
+
+                //  token:  http://localhost/#access_token=1322529869.5c2824e.ac0d6b9734274630909749e6843cdf5c
             </script>
-            <div id="instafeed"></div>-->
-            
-            http://instafeedjs.com/
-            <iframe src="http://snapwidget.com/in/?u=YnVyYmVzfGlufDEyNXwzfDN8YmQwMDA3fG5vfDV8bm9uZXxvblN0YXJ0fHllcw==&v=9614" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:390px; height:390px"></iframe>
+            <section class=" l-row">
+                <div class="l-col12 tittle-instagram"> 
+                    <h1>INSTAGRAM</h1>
+                </div>
+                <div class="l-col12">
+                    <div class="l-container instagram-main">
+                        <div class="l-row " >
+                            <ul  id="instafeed" class="timeline">
+                                <li>
+                                    <!--CONTEUDO CARREGADO POR JQUERY-->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!-- CARDAPIO
                         ======================================================== -->
@@ -487,23 +506,7 @@
                 </div><!-- /content -->
             </div><!-- /tabs -->
 
-            <!--            <div id="tabs" class="l-col12 dvTabs">
-                            <ul class="">
-                                <li class=""><a href="#tabs-1">First</a></li>
-                                <li class=""><a href="#tabs-2">Second</a></li>
-                                <li class=""><a href="#tabs-3">Third</a></li>
-                            </ul>
-                            <div id="tabs-1" class="">
-                                <p>Tab 01.</p>
-                            </div>
-                            <div id="tabs-2" class="">
-                                <p>Tab 02.</p>
-                            </div>
-                            <div id="tabs-3" class="">
-                                <p>Tab 03.</p>
-                            </div>
-                        </div>-->
-
+            
             <!-- Historia do Esporte
                         ======================================================== -->
 
@@ -513,21 +516,7 @@
                     <div class="l-col12 historia-tittle" >
                         <h1>Historia do Esporte</h1>
                     </div> <!-- historia-title -->
-                    <style>
-                        /*                        .historia-content{
-                                                    margin-left: 180px;
-                                                }
-                                                .left-site-pointer, .right-site-pointer{
-                                                    position: absolute !important;
-                                                }
-                                                .left-site-pointer{
-                                                    left:0 !important;
-                                                }
-                                                .right-site-pointer{
-                                                    left: inherit !important;
-                                                    right: 0px !important;
-                                                }*/
-                    </style>
+                    
                     <div class="l-col12 historia-container cycle-slideshow" 
                          data-cycle-fx="scrollHorz" 
                          data-cycle-timeout="0"
@@ -591,10 +580,30 @@
                     <div class="contact-form">
                         <div class="form">
                             <form action="#">
-                                <input type="text">
-                                <input type="text">
-                                <input type="text">
-                                <textarea name=""></textarea>
+                                <div>
+                                    <span>
+                                        Nome:
+                                    </span>
+                                    <input type="text">
+                                </div>
+                                <div>
+                                    <span>
+                                        Email:
+                                    </span>
+                                    <input type="text">
+                                </div>
+                                <div>
+                                    <span>
+                                        Assunto:
+                                    </span>
+                                    <input type="text">
+                                    <div>
+                                        <span>
+                                            Mensagem:
+                                        </span>
+                                    </div>
+                                    <textarea name=""></textarea>
+                                </div>
                                 <input type="submit">
                             </form>
                         </div><!-- form  -->
@@ -607,11 +616,14 @@
 
         <!-- jquery jquery.com -->
         <script src="assets/min/jquery.min.js?v=1.11.0"></script>
+        
         <!-- Cycle 2  -->
         <script src="./js/jquery.cycle2.min.js"></script>
+        
         <!-- waypoints -->
         <script src="assets/min/jquery.waypoints.min.js" type="text/javascript"></script>
         <script src="assets/min/jquery.waypoints-sticky.min.js" type="text/javascript"></script>
+        
         <script type="text/javascript">
                 $(document).ready(function() {
                     var positionAtual = $(window).scrollTop();
@@ -626,10 +638,13 @@
                     $('.sticky-navigation').waypoint('sticky');
                 });
         </script>
+        
         <!-- Maps API Javascript -->
         <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        
         <!-- Arquivo de inicialização do mapa -->
         <script src="assets/js/mapa.js"></script>
+        
         <!-- suiting -->
         <!--<script src="assets/min/jquery.suiting.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
         <!-- mobile -->
@@ -637,19 +652,19 @@
         <!-- main -->
         <!--<script src="assets/min/jquery.main.min.js"></script> GRUNT http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/ -->
         <!-- analytics -->
+        
         <script type="text/javascript">
                 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
                 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
         </script>
 
-        <!-- JQUERY TABS -->
+        <!-- JQUERY TABS (cardapio)-->
         <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
         <script>
                 $(function() {
                     $("#tabs").tabs();
                 });
         </script>
-
-
+        
     </body>
 </html>
