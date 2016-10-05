@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>.: 360SPORTSBAR :.</title>
+        <title>.: 360SPORTSBAR :</title>
 
         <!-- description http://conversion.com.br rel="nofollow" on links
         ======================================================== -->
